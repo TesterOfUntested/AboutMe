@@ -2,6 +2,10 @@
   color:red;
 }
 
+.contact{
+  border-bottom: 1px solid black;
+}
+
 #experienceContainer {
   padding-top:5%;
   padding-bottom:5%;
