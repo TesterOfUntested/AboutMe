@@ -25,9 +25,19 @@ $(window).scroll(function() {
     a[3].parentElement.classList.add('active');
   }
 
-  if(scroll >= 1000) {
+  if(scroll >= 1000 && scroll < 1300) {
     removeAllActives();
     a[4].parentElement.classList.add('active');
+  }
+
+  if(scroll >= 1300 && scroll < 1750) {
+    removeAllActives();
+    a[5].parentElement.classList.add('active');
+  }
+
+  if(scroll >= 1750) {
+    removeAllActives();
+    a[6].parentElement.classList.add('active');
   }
 
 });
